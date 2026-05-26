@@ -14,8 +14,11 @@ Nguồn dữ liệu: Hệ thống quản lý bán hàng thực tế của cửa 
 Kỳ phân tích: 01/05/2026 – 12/05/2026 (12 ngày giao dịch)
 Quy mô: 24 hóa đơn · 120 dòng giao dịch · 66 mặt hàng
 
-<img width="848" height="237" alt="image" src="https://github.com/user-attachments/assets/9061b447-2d8d-4f9e-bfc2-92671e9a899a" />
-
+| Sheet | Mô tả |
+|---|---|
+| `Hóa đơn` | Chi tiết giao dịch: mã đơn, thời gian, tên hàng, số lượng, đơn giá, thành tiền |
+| `Tồn kho` | 67 mã hàng: giá nhập, giá bán, số lượng đã bán, tồn kho hiện tại |
+| `Quyết định` | Output phân tích: phân loại 66 mặt hàng theo mức độ ưu tiên nhập hàng |
 
 ⚙️ System Architecture
 <img width="736" height="785" alt="image" src="https://github.com/user-attachments/assets/5dbff57b-06a7-4160-827c-11988ef66bc0" />
