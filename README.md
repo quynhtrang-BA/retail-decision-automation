@@ -81,10 +81,3 @@ flowchart LR
 - **Gmail** — Gửi báo cáo đề xuất nhập hàng tự động đến chủ cửa hàng
 - **Power BI** — Trực quan hóa doanh thu, lợi nhuận, phân tích sản phẩm
 
----
-
-## 👤 Author
-
-**Tô Lê Quỳnh Trang** · Mã SV: 23050656  
-Lớp QH2023E-KTPT 6 — Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội  
-Học phần: Các Mô hình Ra Quyết định · Tháng 05/2025
