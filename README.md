@@ -14,36 +14,11 @@ Nguồn dữ liệu: Hệ thống quản lý bán hàng thực tế của cửa 
 Kỳ phân tích: 01/05/2026 – 12/05/2026 (12 ngày giao dịch)
 Quy mô: 24 hóa đơn · 120 dòng giao dịch · 66 mặt hàng
 
-SheetMô tảHóa đơnChi tiết giao dịch: mã đơn, thời gian, tên hàng, số lượng, đơn giá, thành tiềnTồn kho67 mã hàng: giá nhập, giá bán, số lượng đã bán, tồn kho hiện tạiQuyết địnhOutput phân tích: phân loại 66 mặt hàng theo mức độ ưu tiên nhập hàng
+<img width="848" height="237" alt="image" src="https://github.com/user-attachments/assets/9061b447-2d8d-4f9e-bfc2-92671e9a899a" />
+
 
 ⚙️ System Architecture
-┌─────────────────────────────────────────────────────────────────┐
-│                    n8n Automated Workflow                        │
-│                  ⏰ Thứ 2 hàng tuần — 7:00 AM                   │
-└─────────────────────────────────────────────────────────────────┘
-         │
-         ├──► 📄 Đọc Sheet Hóa Đơn (Google Sheets)
-         │
-         └──► 📄 Đọc Sheet Tồn Kho (Google Sheets)
-                        │
-                        ▼
-               🔀 Gộp dữ liệu (Merge Node)
-                        │
-                        ▼
-           ⚙️  Phân tích & Ra quyết định (Code Node)
-            ├─ Thuật toán EOQ: tính lượng nhập tối ưu
-            └─ Weighted Decision Model: xếp hạng ưu tiên
-                        │
-            ┌───────────┴───────────┐
-            ▼                       ▼
-  📋 Ghi quyết định           📧 Tạo nội dung
-   vào Google Sheet             Email HTML
-                                    │
-                                    ▼
-                          📨 Gửi Email → Chủ cửa hàng
-                                    │
-                                    ▼
-                               ✅ Hoàn thành
+<img width="736" height="785" alt="image" src="https://github.com/user-attachments/assets/5dbff57b-06a7-4160-827c-11988ef66bc0" />
 
 🔍 Analysis Highlights
 Kết quả kinh doanh kỳ phân tích:
