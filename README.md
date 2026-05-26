@@ -21,7 +21,7 @@ Quy mô: 24 hóa đơn · 120 dòng giao dịch · 66 mặt hàng
 | `Quyết định` | Output phân tích: phân loại 66 mặt hàng theo mức độ ưu tiên nhập hàng |
 
 ⚙️ System Architecture
-<img width="736" height="785" alt="image" src="https://github.com/user-attachments/assets/5dbff57b-06a7-4160-827c-11988ef66bc0" />
+
 
 🔍 Analysis Highlights
 Kết quả kinh doanh kỳ phân tích:
@@ -40,7 +40,7 @@ Output: Đề xuất nhập 8 mặt hàng ưu tiên, tổng giá trị 2.116.000
 
 🛠️ Tools & Technologies
 
-n8n — Lên lịch tự động (Thứ 2 / 7:00), đọc dữ liệu từ Google Sheets, chạy thuật toán phân tích, ghi kết quả và gửi email thông báo
-Google Sheets — Lưu trữ dữ liệu hóa đơn, tồn kho và kết quả quyết định nhập hàng
-Gmail — Gửi báo cáo đề xuất nhập hàng tự động đến chủ cửa hàng
+**n8n** — Lên lịch tự động (Thứ 2 / 7:00), đọc dữ liệu từ Google Sheets, chạy thuật toán phân tích, ghi kết quả và gửi email thông báo
+**Google Sheets** — Lưu trữ dữ liệu hóa đơn, tồn kho và kết quả quyết định nhập hàng
+**Gmail** — Gửi báo cáo đề xuất nhập hàng tự động đến chủ cửa hàng
 Power BI — Trực quan hóa doanh thu, lợi nhuận, phân tích sản phẩm
